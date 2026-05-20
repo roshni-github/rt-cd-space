@@ -15,4 +15,4 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: streamlit_app.py
+      - run: python streamlit_app.py
