@@ -18,3 +18,4 @@ jobs:
       - run: |
           streamlit run streamlit_app.py --server.headless true &
           sleep 5
+          cat output.log
