@@ -15,7 +15,4 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: |
-          streamlit run streamlit_app.py --server.headless true &
-          sleep 5
-          cat output.log
+      - run: streamlit_app.py
